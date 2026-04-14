@@ -16,18 +16,15 @@ This project validates key system metrics such as CPU usage, memory utilization,
 - Pytest
 - JSON
 - Logging
+
 ## Project Structure
 ```text
 platform-test-automation/
 ├── validator.py
 ├── sample_metrics.json
+├── bad_metrics.json
 ├── requirements.txt
 ├── .gitignore
 ├── README.md
 └── tests/
-└── test_validator.py
-
-## Run Validation
-python validator.py sample_metrics.json
-Run Tests
-pytest
+    └── test_validator.py
