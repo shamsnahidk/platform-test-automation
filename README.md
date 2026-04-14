@@ -1,19 +1,21 @@
 # Platform Test Automation
 
-A lightweight Python-based validation tool that simulates platform health checks for core system metrics such as CPU, memory, disk usage, service health, and latency.
+A lightweight Python-based validation tool designed to simulate platform health checks and automated testing workflows used in systems engineering.
+
+## Overview
+This project validates key system metrics such as CPU usage, memory utilization, disk usage, service health, and latency to ensure platform stability and reliability.
 
 ## Features
-- Automated validation of platform health metrics
-- Structured logging for troubleshooting and observability
-- Unit tests for validation logic
-- Simple, modular Python code for maintainability
+- Automated validation of system health metrics
+- Structured logging for observability and debugging
+- Unit tests for validation logic using pytest
+- Modular and extensible design for additional checks
 
 ## Tech Stack
 - Python
 - Pytest
 - JSON
 - Logging
-
 ## Project Structure
 ```text
 platform-test-automation/
@@ -23,4 +25,10 @@ platform-test-automation/
 ├── .gitignore
 ├── README.md
 └── tests/
-    └── test_validator.py
+└── test_validator.py
+
+## Run Validation
+```bash
+python validator.py sample_metrics.json
+Run Tests
+pytest
