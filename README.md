@@ -28,7 +28,6 @@ platform-test-automation/
 └── test_validator.py
 
 ## Run Validation
-```bash
 python validator.py sample_metrics.json
 Run Tests
 pytest
